@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+text-decoration: none;
+}
+body {
+    font-family: 'Inter', sans-serif;
+  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+.logo{
+    height:100%;
+
+}
+.header {
+    background-color: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ padding: 10px;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav_list {
+    display: flex;
+    gap: 30px;
+list-style: none;
+}
+.nav_link{
+    color: navy;
+}
+.nav_link:hover {
+    text-decoration: underline;
+color: aliceblue;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 70vh;
+gap: 5rem;
+
+}
+.logo {
+height: auto;
+padding-top: 5%;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.slogan h2 {
+    font-size: 2rem;
+color: navy;
+padding: 20px;
+}
+.slogan p {
+    max-width: 450px;
+
+color:navy;
+padding: 20px;
+}
+.text__btn {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+.btn {
+   border: 3px solid black;
+   padding: 1rem 1.3rem;
+   border-radius: 8px;
+   font-weight: 600;
+ }
+.btn__cta {
+    background-color: navy;
+color: whitesmoke;
+}
+
+.btn__more {
+    color: black;
+
+}
+.intro {
+width: 70%;
+max-width: 600px;
+margin: 0 auto;
+padding: 30px;
+color: navy;
+
+}
